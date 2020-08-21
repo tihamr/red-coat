@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Red coat - before & after</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="src/cndk.beforeafter.css" rel="stylesheet" />
+    <script src="src/cndk.beforeafter.js"></script>
+      <script>
+        $(function(){
+          $(".beforeafterdefault").cndkbeforeafter();
+        });
+      </script>
+  </head>
+  <body>
+    <div class="beforeafterdefault">
+      <div data-type="data-type-image">
+        <div data-type="before"><img src="img/b.jpg"></div>
+        <div data-type="after"><img src="img/a.jpg"></div>
+      </div>
+    </div>
+  </body>
+</html>
